@@ -190,7 +190,7 @@ do
             })
             local injection_finish = false
             if InjectButton.MouseButton1Click:Connect(function()
-                Initialize Game_Version then
+                Game_Version then
                     local texts = {"Injecting.", "Injecting..", "Injected..."}
                     for i = 1, 1 do
                         if injection_finish then break end
